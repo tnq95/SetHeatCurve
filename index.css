@@ -1,0 +1,12 @@
+.zoom {
+    fill: lightgray;
+}
+
+.point {
+    stroke: cornflowerblue;
+    stroke-width: 1;
+}
+.point:hover, .point:active, .point:focus {
+    stroke: red;
+    transition: stroke 0.25s ease-in-out;
+}
